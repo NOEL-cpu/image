@@ -5,7 +5,7 @@ import numpy as np
 import tensorflow as tf
 
 
-TOKEN = "5836801048:AAHrAtSk4LuGMQlITBn6Q3Cz91HxL_1mv94"
+TOKEN = 
 
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.cifar10.load_data()
 x_train, x_test = x_train / 255, x_test / 255
